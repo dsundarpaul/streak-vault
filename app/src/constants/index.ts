@@ -1,7 +1,12 @@
 export const NavLink = [
   {
     lable: "Home",
-    route: "/home",
+    route: "/",
+    imgUrl: "",
+  },
+  {
+    lable: "Settings",
+    route: "/settings",
     imgUrl: "",
   },
 ];
