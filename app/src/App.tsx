@@ -1,14 +1,11 @@
 import "./App.css";
-import SideNav from "./components/SideNav/SideNav";
+import MainUserLayout from "./layouts/MainUserLayout";
 
 function App() {
   return (
-    <div>
-      <nav>
-        <SideNav />
-      </nav>
+    <MainUserLayout>
       <div>hello</div>
-    </div>
+    </MainUserLayout>
   );
 }
 
