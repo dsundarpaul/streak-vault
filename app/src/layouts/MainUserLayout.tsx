@@ -3,12 +3,12 @@ import SideNav from "../components/SideNav/SideNav";
 
 const MainUserLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <>
-      <nav>
+    <div className="flex h-screen">
+      <nav className="w-28 border-r-[1px] border-slate-400 p-2">
         <SideNav />
       </nav>
-      {children}
-    </>
+      <section>{children}</section>
+    </div>
   );
 };
 
